@@ -2,9 +2,12 @@ import Header from '../Header/Header';
 
 function Home() {
     return (
-        <div>
-          <Header background="#FF7700" />
+      <div className='home'>
+        <Header background="#F8CB2E" />
+        <div className='home__body'>
+          
         </div>
+      </div>
     );
 }
 

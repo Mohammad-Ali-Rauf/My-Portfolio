@@ -1,6 +1,6 @@
 .nav-header {
     max-width: 900vw;
-    background-color: #F8CB2E;
+    background-color: rgb(138, 221, 60);
 }
 
 .ul-header {
@@ -20,6 +20,7 @@
     text-transform: uppercase;
     color: white;
     margin-left: 40px;
+    font-size: large;
 }
 
 .logo-text {

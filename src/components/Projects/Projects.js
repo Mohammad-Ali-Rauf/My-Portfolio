@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Header/Header';
 
-function Services() {
+function Projects() {
   return (
     <div>
       <Header />
@@ -9,4 +9,4 @@ function Services() {
   )
 }
 
-export default Services
+export default Projects

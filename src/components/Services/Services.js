@@ -4,7 +4,7 @@ import Header from '../Header/Header';
 function Services() {
   return (
     <div>
-      <Header />
+      <Header background="#FF7700" />
     </div>
   )
 }

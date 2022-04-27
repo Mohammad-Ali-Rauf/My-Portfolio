@@ -1,6 +1,20 @@
-.about__header {
-    max-width: 1300px;
-    min-height: 100px;
-    background-color: #55D8C1;
+.about-us {
+    min-height: 100vh;
+    background-image: url('../../images/about-bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.about__heading {
+    font-size: 39px;
+    margin-top: 100px;
     text-align: center;
+    color: white;
+}
+
+.about__body {
+    font-size: 39px;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
 }

@@ -2,7 +2,9 @@ import Header from '../Header/Header';
 
 function Home() {
     return (
-        <Header />
+        <div>
+          <Header background="#FF7700" />
+        </div>
     );
 }
 

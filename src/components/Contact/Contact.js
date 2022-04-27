@@ -4,7 +4,7 @@ import Header from '../Header/Header';
 function Contact() {
   return (
     <div>
-      <Header background="#F8CB2E" />
+      <Header />
     </div>
   )
 }

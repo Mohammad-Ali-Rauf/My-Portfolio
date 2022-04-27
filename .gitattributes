@@ -285,3 +285,17 @@
 /node_modules/.cache/default-development/0.pack filter=lfs diff=lfs merge=lfs -text
 /node_modules/.cache/default-development/9.pack filter=lfs diff=lfs merge=lfs -text
 /node_modules/.cache/default-development/12.pack filter=lfs diff=lfs merge=lfs -text
+/node_modules/.cache/default-development/8.pack filter=lfs diff=lfs merge=lfs -text
+/node_modules/minipass-sized/package-lock.json filter=lfs diff=lfs merge=lfs -text
+/node_modules/node-gyp/gyp/pylib/gyp/generator/make.py filter=lfs diff=lfs merge=lfs -text
+/node_modules/node-gyp/gyp/pylib/gyp/generator/msvs.py filter=lfs diff=lfs merge=lfs -text
+/node_modules/node-gyp/gyp/pylib/gyp/generator/ninja.py filter=lfs diff=lfs merge=lfs -text
+/node_modules/node-gyp/gyp/pylib/gyp/input.py filter=lfs diff=lfs merge=lfs -text
+/node_modules/node-gyp/gyp/pylib/gyp/xcodeproj_file.py filter=lfs diff=lfs merge=lfs -text
+/node_modules/node-gyp/gyp/tools/emacs/testdata/media.gyp.fontified filter=lfs diff=lfs merge=lfs -text
+/node_modules/node-sass/src/libsass/src/ast.hpp filter=lfs diff=lfs merge=lfs -text
+/node_modules/node-sass/src/libsass/src/parser.cpp filter=lfs diff=lfs merge=lfs -text
+/node_modules/node-sass/vendor/darwin-x64-102/darwin-x64-102_binding.node filter=lfs diff=lfs merge=lfs -text
+/node_modules/node-sass/vendor/linux-x64-93/binding.node filter=lfs diff=lfs merge=lfs -text
+/node_modules/scss-tokenizer/node_modules/source-map/dist/source-map.js filter=lfs diff=lfs merge=lfs -text
+/src/images/profile.png filter=lfs diff=lfs merge=lfs -text

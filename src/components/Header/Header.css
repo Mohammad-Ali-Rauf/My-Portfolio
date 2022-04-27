@@ -1,0 +1,28 @@
+.nav-header {
+    max-width: 900vw;
+    background-color: #4B7BE5;
+}
+
+.ul-header {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+.ul-header li {
+    padding: 20px 25px;
+    margin-top: 10px;
+}
+
+.ul-header li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 40px;
+}
+
+.logo-text {
+    margin-top: 25px;
+    color: white;
+}

@@ -302,3 +302,8 @@
 /node_modules/.cache/default-development/14.pack filter=lfs diff=lfs merge=lfs -text
 /node_modules/.cache/default-development/15.pack filter=lfs diff=lfs merge=lfs -text
 /node_modules/.cache/default-development/3.pack filter=lfs diff=lfs merge=lfs -text
+/node_modules/.cache/babel-loader/30aa8bec9f6309b5bc664ace09028bd5.json filter=lfs diff=lfs merge=lfs -text
+/node_modules/.cache/babel-loader/360ed677389ee111ab59d75c5977d10b.json filter=lfs diff=lfs merge=lfs -text
+/node_modules/.cache/babel-loader/36ec6ada075dc8d6fec121cb09f85061.json filter=lfs diff=lfs merge=lfs -text
+/node_modules/.cache/babel-loader/7ec381423452ca9fc7d12b6c14969580.json filter=lfs diff=lfs merge=lfs -text
+/node_modules/.cache/babel-loader/a7a4c54dff0821734c6e0573c51ff11a.json filter=lfs diff=lfs merge=lfs -text

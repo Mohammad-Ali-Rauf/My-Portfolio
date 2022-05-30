@@ -365,3 +365,10 @@
 /src/assets/cv.pdf filter=lfs diff=lfs merge=lfs -text
 /src/assets/my_photo.png filter=lfs diff=lfs merge=lfs -text
 /src/assets/portfolio5.png filter=lfs diff=lfs merge=lfs -text
+/node_modules/.cache/babel-loader/07dc7f48182417ca01776d18f3897254.json filter=lfs diff=lfs merge=lfs -text
+/node_modules/.cache/babel-loader/361373c957b3a3d7f80e96dcd5c62ddb.json filter=lfs diff=lfs merge=lfs -text
+/node_modules/.cache/babel-loader/7c51a6d15f593f62c1a922a45bf3d8a5.json filter=lfs diff=lfs merge=lfs -text
+/node_modules/.cache/babel-loader/942f1d94426a3648de4182e9b1df7ed4.json filter=lfs diff=lfs merge=lfs -text
+/node_modules/.cache/babel-loader/ac25472e863f357c8ca84f98a933a614.json filter=lfs diff=lfs merge=lfs -text
+/node_modules/.cache/default-development/20.pack filter=lfs diff=lfs merge=lfs -text
+/src/assets/profile.png filter=lfs diff=lfs merge=lfs -text

@@ -6,9 +6,9 @@ import { BsTwitter } from 'react-icons/bs';
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>
-      <a href="https://www.linkedin.com/in/mohammad-ali-40689121b/" target="_blank"><BsLinkedin /></a>
-      <a href="https://github.com/Mohammad-Ali-Rauf" target="_blank"><BsGithub /></a>
-      <a href="https://twitter.com/MohammadAliRauf" target="_blank"><BsTwitter /></a>
+      <a href="https://www.linkedin.com/in/mohammad-ali-40689121b/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
+      <a href="https://github.com/Mohammad-Ali-Rauf" target="_blank" rel="noreferrer"><BsGithub /></a>
+      <a href="https://twitter.com/MohammadAliRauf" target="_blank" rel="noreferrer"><BsTwitter /></a>
     </div>
   )
 }

@@ -1,4 +1,8 @@
 import React from 'react';
+import ME from '../../assets/profile.png';
+import { FaAward } from 'react-icons/fa';
+import { FiUsers } from 'react-icons/fi';
+import { VscFolderLibrary } from 'react-icons/vsc';
 
 // Import Styles
 import './About.css';
@@ -12,12 +16,36 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
             <div className="about__me-image">
-              <img src="../../assets/my_photo.png" alt="" />
+              <img src={ME} alt="" />
             </div>
         </div>
 
         <div className="about__content">
+          <div className="about__cards">
+            <article className='about__card'>
+                <FaAward className='about__icon' />
+                <h5>Experience</h5>
+                <small>8+ Months</small>
+            </article>
 
+            <article className='about__card'>
+                <FiUsers className='about__icon' />
+                <h5>Clients</h5>
+                <small>1 Client</small>
+            </article>
+
+            <article className='about__card'>
+                <VscFolderLibrary className='about__icon' />
+                <h5>Projects</h5>
+                <small>25+ Projects Completed</small>
+            </article>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem sit accusamus consectetur pariatur. Voluptas consectetur rerum nemo vitae tenetur natus sequi iure odio fuga perspiciatis animi temporibus voluptatem, blanditiis esse?
+          </p>
+
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>

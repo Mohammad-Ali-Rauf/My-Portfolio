@@ -372,3 +372,5 @@
 /node_modules/.cache/babel-loader/ac25472e863f357c8ca84f98a933a614.json filter=lfs diff=lfs merge=lfs -text
 /node_modules/.cache/default-development/20.pack filter=lfs diff=lfs merge=lfs -text
 /src/assets/profile.png filter=lfs diff=lfs merge=lfs -text
+/node_modules/react-icons/tb/index.esm.js filter=lfs diff=lfs merge=lfs -text
+/node_modules/react-icons/tb/index.js filter=lfs diff=lfs merge=lfs -text

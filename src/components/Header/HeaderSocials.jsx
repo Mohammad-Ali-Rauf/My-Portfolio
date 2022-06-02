@@ -1,16 +1,3 @@
-import React from 'react';
-import { BsLinkedin } from 'react-icons/bs';
-import { BsGithub } from 'react-icons/bs';
-import { BsTwitter } from 'react-icons/bs';
-
-const HeaderSocials = () => {
-  return (
-    <div className='header__socials'>
-      <a href="https://www.linkedin.com/in/mohammad-ali-40689121b/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
-      <a href="https://github.com/Mohammad-Ali-Rauf" target="_blank" rel="noreferrer"><BsGithub /></a>
-      <a href="https://twitter.com/MohammadAliRauf" target="_blank" rel="noreferrer"><BsTwitter /></a>
-    </div>
-  )
-}
-
-export default HeaderSocials
+version https://git-lfs.github.com/spec/v1
+oid sha256:17ce9b4626936110a729b6f950736f000738562f5a83f151669a67578218330d
+size 612

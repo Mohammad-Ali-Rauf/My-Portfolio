@@ -1,3 +1,6 @@
+“.js” filter=lfs diff=lfs merge=lfs -text
+“.css” filter=lfs diff=lfs merge=lfs -text
+“.jsx” filter=lfs diff=lfs merge=lfs -text
 /node_modules/.cache/babel-loader/18869a8eb9689ccae6a3bcdb5fb90edd.json filter=lfs diff=lfs merge=lfs -text
 /node_modules/.cache/babel-loader/368175f53f902214213c6d56c38ad4e6.json filter=lfs diff=lfs merge=lfs -text
 /node_modules/.cache/babel-loader/4d3f8b0f47fee58858a72f4d056a8556.json filter=lfs diff=lfs merge=lfs -text

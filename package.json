@@ -24,8 +24,7 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ],
-    "parser": "@typescript-eslint/parser"
+    ]
   },
   "browserslist": {
     "production": [

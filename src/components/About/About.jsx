@@ -1,3 +1,50 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0e9438d37dd295cbb8cbec949f52ce4f6733acd8a77c15ada3523be4dd02eaec
-size 1607
+import React from 'react';
+import { FaAward } from 'react-icons/fa';
+import { FiUsers } from 'react-icons/fi';
+import { VscFolderLibrary } from 'react-icons/vsc';
+
+// Import Styles
+import './About.css';
+
+const About = () => {
+
+  return (
+    <section id='about'>
+      <h5>Get To Know</h5>
+      <h2>About Me</h2>
+
+      <div className="container about__container">
+
+        <div className="about__content">
+          <div className="about__cards">
+            <article className='about__card'>
+                <FaAward className='about__icon' />
+                <h5>Experience</h5>
+                <small>8+ Months</small>
+            </article>
+
+            <article className='about__card'>
+                <FiUsers className='about__icon' />
+                <h5>Clients</h5>
+                <small>1 Client</small>
+            </article>
+
+            <article className='about__card'>
+                <VscFolderLibrary className='about__icon' />
+                <h5>Projects</h5>
+                <small>10+ Projects Completed</small>
+            </article>
+          </div>
+
+          <p>
+            Hi! My name is Mohammad Ali, I live in Pakistan. I started Full Stack Web Development 1 year 5 months ago. I am 13 years old, I am doing O'level.
+          </p>
+
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default About

@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:80c4e3c3b05dcfd1de873431bf59a448d7bd7c2dfe6ca81997a933f88cb4d2d9
-size 1166
+import React, { useState } from 'react';
+import { AiOutlineHome } from 'react-icons/ai';
+import { AiOutlineUser } from 'react-icons/ai';
+import { BiBook } from 'react-icons/bi';
+import { MdMiscellaneousServices } from 'react-icons/md';
+import { BiMessageSquareDetail } from 'react-icons/bi';
+
+// Import Styles
+import './Navbar.css';
+
+const Navbar = () => {
+
+  const [activeNav, setActiveNav] = useState('#');
+
+  return (
+    <nav>
+      <a href="#header" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
+      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
+      <a href="#skills" onClick={() => setActiveNav('#skills')} className={activeNav === '#skills' ? 'active' : ''}><BiBook /></a>
+      <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><MdMiscellaneousServices /></a>
+      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></a>
+    </nav>
+  )
+}
+
+export default Navbar

@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ab684d216241ae9500a61d9ba53fee7bf54c24c52d99134ac3b669449e8afb31
-size 404
+import React from 'react';
+
+// Import Styles
+import './Testimonials.css';
+
+const Testimonials = () => {
+  return (
+    <section id='testimonials'>
+      <h5>Review from Clients</h5>
+      <h2>Testimonials</h2>
+
+      <div className="container testimonials__container">
+        <article className="testimonial">
+          
+        </article>
+      </div>
+    </section>
+  )
+}
+
+export default Testimonials

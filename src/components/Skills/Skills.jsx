@@ -12,7 +12,6 @@ const Skills = () => {
 
       <div className="container skills__container">
         <div className="skills__frontend">
-          <h3>Frontend Development</h3>
           <div className="skills__content">
             <article className="skills__details">
               <BsFillPatchCheckFill className='skills__details-icon' />
@@ -38,8 +37,15 @@ const Skills = () => {
             <article className="skills__details">
               <BsFillPatchCheckFill className='skills__details-icon' />
               <div>
-                <h4>React</h4>
+                <h4>React JS</h4>
                 <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="skills__details">
+              <BsFillPatchCheckFill className='skills__details-icon' />
+              <div>
+                <h4>Next JS</h4>
+                <small className="text-light">Beginner</small>
               </div>
             </article>
             <article className="skills__details">
@@ -52,13 +58,13 @@ const Skills = () => {
             <article className="skills__details">
               <BsFillPatchCheckFill className='skills__details-icon' />
               <div>
-                <h4>Tailwind</h4>
+                <h4>Bootstrap</h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>
           </div>
         </div>
-        <div className="skills__backend">
+        {/* <div className="skills__backend">
           <h3>Backend Development</h3>
           <div className="skills__content">
             <article className="skills__details">
@@ -83,7 +89,7 @@ const Skills = () => {
               </div>
             </article>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

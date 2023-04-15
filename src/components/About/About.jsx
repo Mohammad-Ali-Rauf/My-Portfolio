@@ -20,24 +20,24 @@ const About = () => {
             <article className='about__card'>
                 <FaAward className='about__icon' />
                 <h5>Experience</h5>
-                <small>8+ Months</small>
+                <strong>1+ Year</strong>
             </article>
 
             <article className='about__card'>
                 <FiUsers className='about__icon' />
                 <h5>Clients</h5>
-                <small>1 Client</small>
+                <strong> 1. Orange Fox Labs - Software Company</strong>
             </article>
 
             <article className='about__card'>
                 <VscFolderLibrary className='about__icon' />
                 <h5>Projects</h5>
-                <small>10+ Projects Completed</small>
+                <strong>5+ Projects Completed</strong>
             </article>
           </div>
 
           <p>
-            Hi! My name is Mohammad Ali, I live in Pakistan. I started Full Stack Web Development 1 year 5 months ago. I am 13 years old, I am doing O'level.
+            Hi! My name is Mohammad Ali, I live in Pakistan. I started Front-End Web Development in React JS 1 year ago. I am 13 years old, I am doing O'level.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

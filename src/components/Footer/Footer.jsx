@@ -1,8 +1,8 @@
 import React from 'react';
 
 // Import icons
-import { ImFacebook2 } from 'react-icons/im';
-import { BsInstagram } from 'react-icons/bs';
+import { ImLinkedin } from 'react-icons/im';
+import { BsGithub } from 'react-icons/bs';
 import { BsTwitter } from 'react-icons/bs';
 
 // Import Styles
@@ -17,13 +17,13 @@ const Footer = () => {
         <li><a href="#skills">Skills</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
+        {/* <li><a href="#testimonials">Testimonials</a></li> */}
         <li><a href="#contact">Contact</a></li>
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.facebook.com/profile.php?id=100076664379524"><ImFacebook2 /></a>
-        <a href="https://www.instagram.com/maliadnan_rauf/"><BsInstagram /></a>
+        <a href="https://www.linkedin.com/in/mohammad-ali-40689121b/"><ImLinkedin /></a>
+        <a href="https://github.com/Mohammad-Ali-Rauf"><BsGithub /></a>
         <a href="https://twitter.com/MohammadAliRauf"><BsTwitter /></a>
       </div>
     </footer>

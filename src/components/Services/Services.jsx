@@ -13,13 +13,13 @@ const Services = () => {
       <div className="container services__container">
         <article className='service'>
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3 style={{ color: '#E5E5E5' }}>Frontend Web Development</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>MERN Website</p>
+              <p>Simple React JS Website</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
@@ -28,10 +28,6 @@ const Services = () => {
             <li>
               <BiCheck className='service__list-icon' />
               <p>HTML, CSS and Javascript</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Web Design</p>
             </li>
           </ul>
         </article>

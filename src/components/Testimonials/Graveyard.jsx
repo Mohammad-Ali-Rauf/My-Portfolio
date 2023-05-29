@@ -1,16 +1,16 @@
 import React from 'react';
 
 // Import Styles
-import './Testimonials.css';
+import './Graveyard.css';
 
-const Testimonials = () => {
+const Graveyard = () => {
   return (
     <section id='testimonials'>
       <h5>Failed and Abondaned Projects</h5>
       <h2>Graveyard</h2>
 
-      <div className="container testimonials__container">
-        <article className="testimonial">
+      <div className="container graveyard__container">
+        <article className="graveyard">
           
         </article>
       </div>

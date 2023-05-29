@@ -18,4 +18,4 @@ const Graveyard = () => {
   )
 }
 
-export default Testimonials
+export default Graveyard

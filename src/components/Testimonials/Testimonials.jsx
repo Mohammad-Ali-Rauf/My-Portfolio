@@ -6,8 +6,8 @@ import './Testimonials.css';
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Review from Clients</h5>
-      <h2>Testimonials</h2>
+      <h5>Failed and Abondaned Projects</h5>
+      <h2>Graveyard</h2>
 
       <div className="container testimonials__container">
         <article className="testimonial">

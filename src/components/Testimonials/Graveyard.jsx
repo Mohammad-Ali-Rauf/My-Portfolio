@@ -5,7 +5,7 @@ import './Graveyard.css';
 
 const Graveyard = () => {
   return (
-    <section id='testimonials'>
+    <section id='graveyard'>
       <h5>Failed and Abondaned Projects</h5>
       <h2>Graveyard</h2>
 

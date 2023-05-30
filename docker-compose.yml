@@ -1,0 +1,10 @@
+version: "2.18.1"
+
+services:
+  app:
+    container_name: my-portfolio
+    image: my-portfolio-image
+    build:
+      context: .
+    ports:
+      - 8080:80

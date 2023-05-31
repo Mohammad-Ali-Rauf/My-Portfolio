@@ -3,6 +3,8 @@ import GithubFinderImg from '../../assets/github-finder.png';
 import VideoChatImg from '../../assets/video-chat.png';
 import SeatSelectorImg from '../../assets/seat-selector.png';
 import FormValidationImg from '../../assets/form-validation.png';
+import FastTypingImg from '../../assets/typing.png';
+import RandomQuotesImg from '../../assets/quotes.png';
 
 // Import Styles
 import './Portfolio.css';
@@ -44,6 +46,24 @@ const data = [
     skillsUsed: ['HTML5', 'CSS3', 'JAVASCRIPT'],
     github: 'https://github.com/Mohammad-Ali-Rauf/html-form-validation',
     live: 'https://html-form-validation-ali.netlify.app'
+  },
+  {
+    id: 5,
+    image: FastTypingImg,
+    title: 'Fast Typing Game',
+    completed: true,
+    skillsUsed: ['HTML5', 'CSS3', 'JAVASCRIPT'],
+    github: 'https://github.com/Mohammad-Ali-Rauf/fast-typing_game',
+    live: 'https://euphonious-croquembouche-2277f3.netlify.app/'
+  },
+  {
+    id: 6,
+    image: RandomQuotesImg,
+    title: 'Random Quote Generator',
+    completed: true,
+    skillsUsed: ['REACT JS', 'BOOTSTRAP 5', 'HTML5'],
+    github: 'https://github.com/Mohammad-Ali-Rauf/random-quote-generator_reactjs',
+    live: 'https://vocal-melba-735ae3.netlify.app/'
   },
 ]
 

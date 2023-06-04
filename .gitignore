@@ -34,3 +34,6 @@ yarn-error.log*
 
 # Local Netlify folder
 .netlify
+
+# Google verification file for google search console
+google718a217978e252ae.*
